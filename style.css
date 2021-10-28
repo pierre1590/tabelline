@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+h2{
+    font-size:75px;
+    text-align:center;
+    color:#f00;
+   font-style:italic;
+    font-family: 'Cormorant Upright', serif;
+}
+
+.container{
+    margin: 10% 42% auto ;
+    border: 2px solid #11f;
+    border-radius:10px;
+    height:200px;
+    width:450px;
+    box-shadow: 3px 3px rgb(230,150,90,1)
+}
+
+.tabelline{
+    margin:10px 30px 30px;
+}
+
+#number{
+    font-size:16px;
+    width:185px;
+    border-radius:5%;
+    outline: none;
+}
+
+#btn_show{
+    border-radius:15px;
+    font-size:18px;
+    outline:none;
+    cursor:pointer;
+    padding:5px;
+
+}
+
+#btn_cancel{
+    border-radius:15px;
+    font-size:18px;
+    outline:none;
+    cursor:pointer;
+    padding:5px;
+}
+
+
+.show{
+    margin :5px 2px;
+    font-size:18px;
+    padding: 10px;
+   
+    
+}
+
+@media screen and (min-width:320px){
+    .container{
+        margin:0;
+        width:318px;
+        height:250px;
+    }
+
+    #btn_show, #btn_cancel{
+        margin-top:10px;
+    }
+}
+
+@media screen and (min-width:768px){
+    .container{
+        margin:15%;
+        width:318px;
+        height:350px;
+    }
+
+    #btn_show, #btn_cancel{
+        margin-top:10px;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .container{
+        margin:5% 45% auto;
+        width:450px;
+        height:180px;
+    }
+
+    
+}
+
+
